@@ -31,5 +31,18 @@ Thumbs.db
 data/
 reports/
 
-warehouse/
+# Project warehouse (keep folder, ignore contents)
+warehouse/*
+!warehouse/.gitkeep
 
+# Streamlit caches
+.streamlit/
+.streamlit-cache/
+.cache/
+
+# Local junk
+*.tmp
+*.log
+
+*.duckdb
+*.duckdb.wal
